@@ -26,3 +26,13 @@ function deleteDigit(n) {
 }
 
 module.exports = deleteDigit;
+
+// function deleteDigit(num) {
+//   const arr = Array.from(String(num), Number);
+
+//   arr.splice(arr.indexOf(Math.min(...arr)), 1);
+
+//   return Number(arr.join(''));
+// }
+
+// module.exports = deleteDigit;
